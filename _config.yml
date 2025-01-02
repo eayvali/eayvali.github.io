@@ -1,0 +1,24 @@
+title: ""
+author: "Elif Ayvali"
+description: ""
+baseurl: "" 
+url: "https://eayvali.github.io" 
+
+github_username: eayvali 
+linkedin_username: eayvali 
+
+# Navigation links for your site
+nav_links:
+  - title: "Home"
+    url: "/" # Links to the homepage
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/in/eayvali/"
+
+paginate: 5 # Optional: show 5 posts per page if you plan to add more posts later
+permalink: /:categories/:title/
+theme: minima
+plugins:
+  - jekyll-feed # For RSS feeds (optional but helpful for a blog)
+  - jekyll-seo-tag # Optional: Improves SEO for your blog
+  - jekyll-paginate # Optional: Adds pagination if you have many posts
+
